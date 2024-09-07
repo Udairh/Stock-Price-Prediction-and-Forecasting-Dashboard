@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the container to display flex for horizontal and vertical centering */
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  width: 100%;
+  height: 100vh;
+  background-color: #110b0b; /* Dark background */
+}
+
+/* Style the inputs section */
+.inputs {
+  width: 25vw; /* Width of the input section */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgb(5, 107, 107); /* Dark teal background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Style for buttons */
+button {
+  background-color: #ff9900; /* Orange background for buttons */
+  color: #1f5ea5; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #e3ede6; /* Lighter orange on hover */
+}
+
+/* Style for the stock code input */
+.stock-code {
+  width: 90%;
+  margin: 20px 0;
+}
+
+/* Style for the main content */
+.content {
+  width: 75vw;
+  padding: 20px;
+}
+
+/* Style for the description section */
+.description_ticker {
+  margin: 1cm; /* 1 cm gap on each side */
+  font-size: 18px;
+  text-align: justify; /* Justify the text */
+}
+
+/* Style for the header */
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header img {
+  width: 250px; /* Adjust width to fit your image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Rounded corners */
+  margin-right: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #333333;
+}
